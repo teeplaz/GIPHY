@@ -1,0 +1,29 @@
+body {
+    background-image: pink;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+}
+
+.animate {
+    display: block;
+}
+
+#button-div {
+    margin-top: 25px;
+}
+
+#gifs {
+    margin-top: 25px;
+}
+
+.new {
+    float: left;
+    padding-right: 10px;
+}
+
+.btn {
+    margin-top: 5px;
+}

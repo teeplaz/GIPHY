@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GIF Finding App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <br>
+    <div class="row">
+        <div class="col sm-4">
+            <form>
+            <span id="subject-item"><h6>Type something here </h6><input id="subject" type="text"><input id="add-subject" value="Add Item" type="submit"></span>
+            </form>
+            <br>
+            <span><h4>Click on gif to freeze</h4></span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col sm-12" id="button-div">
+                <button animal-type="cat" class="btn btn-primary">tiger</button>
+                <button animal-type="dog" class="btn btn-primary">wolf</button>
+                <button animal-type="bird" class="btn btn-primary">penguin</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" id="clear-button">
+                <button class="btn btn-secondary">reset</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col md-8" id="gifs"></div>
+        </div>
+    </div>
+    <p>Ty Plaza UNHBC2018</p>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
